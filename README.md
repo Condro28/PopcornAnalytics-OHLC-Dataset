@@ -15,7 +15,21 @@ Includes:
 - Zero gaps  
 - Accurate OHLCV reconstructed from trades  
 - Verified millisecond timestamps  
-- Research-grade dataset  
+- Research-grade dataset
+   
+## 📊 Kaggle Dataset (Free Access)
+
+The full XBTUSD 1-minute OHLCV dataset (2013–2025) is now available on Kaggle:
+
+👉 **Kaggle (Free Download):**  
+https://www.kaggle.com/datasets/popcornanalytics/xbtusd-1-minute-ohlcv-20132025-popcornanalytics
+
+The dataset includes:
+- 4.7M+ minute-candles  
+- Fully reconstructed from raw Kraken trades  
+- Zero gaps  
+- Millisecond timestamps  
+- Clean normalized OHLCV format  
 
 ---
 

@@ -1,94 +1,178 @@
-# PopcornAnalytics-OHLC-Dataset
-High-quality crypto OHLC dataset reconstructed from raw Kraken trades (2013–2025). Free samples included.
-https://www.reddit.com/r/PopcornAnalytics/
----
+🍿 PopcornAnalytics — High-Quality OHLCV Datasets (Kraken Raw Trades, 2013–2025)
 
-## 🛒 Full Dataset (2013–2025)
+Reconstructed from raw Kraken trades with zero gaps, millisecond timestamps, and true trade-derived OHLC.
+Join the community on Reddit → https://www.reddit.com/r/PopcornAnalytics/
 
-If you want the complete **XBTUSD 1-minute OHLC dataset reconstructed from raw trades**, you can get it here:
 
-👉 **Gumroad:** https://popcornanalytics.gumroad.com/l/xwnuid
+Premium datasets available on Gumroad → https://popcornanalytics.gumroad.com/
+📦 Available Datasets
+
+PopcornAnalytics provides research-grade 1-minute OHLCV datasets rebuilt directly from raw Kraken trade logs.
+
+✔ Free Datasets
+Pair	Years	Format	Download
+XBTUSD (Bitcoin/USD)	2013–2025	JSON	GitHub & Kaggle
+ETHUSD Sample (30 Days)	2025 (recent month)	JSON	GitHub & Kaggle
+💎 Premium Datasets (Gumroad)
+Pair	Years	Description	Link
+ETHUSD — Full 1-Minute OHLCV Dataset	2017–2025	Fully reconstructed from raw trades, zero gaps, millisecond timestamps	https://popcornanalytics.gumroad.com/l/zzfyml
+XBTUSD — Full 1-Minute OHLCV Dataset
+2013–2025
+Entire 12-year BTC/USD dataset rebuilt from raw trades
+https://popcornanalytics.gumroad.com/l/xwnuid
+
+If you use, test, or buy these datasets — join the community and follow updates:
+👉 Reddit: /r/PopcornAnalytics
+
+🧠 Why PopcornAnalytics Data?
+
+Most API OHLC feeds suffer from:
+
+Missing candles
+
+Inaccurate open/close
+
+Fake volume
+
+Rounded timestamps
+
+PopcornAnalytics datasets are:
+
+✔ Rebuilt entirely from raw trades
+
+Every single minute is reconstructed from underlying tick-level trade history.
+
+✔ Zero gaps
+
+No missing minutes — even during low-liquidity or exchange-downtime windows.
+
+✔ Millisecond timestamps
+
+More accurate than standard API feeds (which often round to seconds).
+
+✔ True OHLCV
+
+Values are derived directly from real trades, not API snapshots.
+
+✔ Perfect 1-minute alignment
+
+All candles align to exact UNIX boundaries.
+
+🔥 Featured Premium Dataset: Ethereum ETHUSD (2017–2025)
+
+👉 Download on Gumroad:
+https://popcornanalytics.gumroad.com/l/zzfyml
+
+This dataset includes:
+
+Full ETH/USD 1-minute candles (2017 → 2025)
+
+Clean normalized format
+
+Verified timestamp reconstruction
+
+Accurate OHLCV based on all Kraken ETHUSD trades
+
+Delivered as .json (and .csv on request)
+
+Ideal for:
+
+Quant research
+
+Backtesting
+
+HFT strategy prototyping
+
+Machine learning datasets
+
+Long-horizon market behavior analysis
+
+ETHUSD is a premium dataset due to high computational cost and extremely large trade history.
+
+📊 BTC Dataset (Free + Premium)
+✔ Free Samples (Included in this Repo)
+
+xbtusd_1m_2025-11_sample.json.zip — November 2025 sample
+
+xbtusd_1m_sample_20mb.zip — 2013–2017 historical slice
+
+xbtusd_1m_sample_recent_20mb.zip — 2025 multi-month slice
+
+✔ Full BTC/USD Dataset
+
+Available on Gumroad:
+https://popcornanalytics.gumroad.com/l/xwnuid
 
 Includes:
 
-- 12+ years of continuous data  
-- Zero gaps  
-- Accurate OHLCV reconstructed from trades  
-- Verified millisecond timestamps  
-- Research-grade dataset
-   
-## 📊 Kaggle Dataset (Free Access)
+12+ years of raw-trade-derived 1-minute candles
 
-The full XBTUSD 1-minute OHLCV dataset (2013–2025) is now available on Kaggle:
+4.7M+ rows
 
-👉 **Kaggle (Free Download):**  
-https://www.kaggle.com/datasets/popcornanalytics/xbtusd-1-minute-ohlcv-20132025-popcornanalytics
+Verified reconstruction accuracy
 
-The dataset includes:
-- 4.7M+ minute-candles  
-- Fully reconstructed from raw Kraken trades  
-- Zero gaps  
-- Millisecond timestamps  
-- Clean normalized OHLCV format  
+Zero gaps, perfect boundaries
 
----
+📅 ETHUSD Free Sample (30 Days)
 
-## 📌 Overview
+File: lsethusd_1m_recent_30d.json
+Candles: ~43,000
+Range: Last 30 days from most recent data processing run
 
-This repository contains multiple **XBTUSD 1-minute OHLC samples** reconstructed directly from raw Kraken trade data using a custom pipeline.
+This is provided so users can verify ETHUSD formatting before purchasing the full dataset.
 
-This pipeline ensures:
+🧩 Column Format (All Datasets)
 
-- Zero intentional gaps  
-- Millisecond-accurate timestamps  
-- True trade-derived OHLC  
-- Perfect 1-minute boundaries  
-- Accurate base-currency volume  
-- Long-term consistency (2013 → 2025)
-
-These samples allow traders and researchers to validate reconstruction quality before purchasing the full dataset.
-
----
-
-# 📦 Free Sample Files
-
-## 🗓 1-Month Sample — November 2025
-**File:** `xbtusd_1m_2025-11_sample.json.zip`  
-**Candles:** 43,200  
-**Range:** 2025-11-01 → 2025-11-30  
-
-A full month of recent XBTUSD 1-minute candles, ideal for testing continuity, timestamps, and reconstruction quality.
-
----
-
-## 🕰 Historical Sample (2013–2017) — 20MB
-**File:** `xbtusd_1m_sample_20mb.zip`  
-**Candles:** 349,376  
-**Range:** 2013-10-06 → 2017-06-27  
-
-A historical slice showing early Kraken BTC/USD trading behavior and long-term reconstruction consistency.
-
----
-
-## 📅 Recent Sample (2025) — 20MB
-**File:** `xbtusd_1m_sample_recent_20mb.zip`  
-**Candles:** 361,005  
-**Range:** 2025-03-24 → 2025-11-30  
-
-A larger recent sample demonstrating multi-month continuity and modern liquidity conditions.
-
----
-
-# 📘 Column Definitions
-
-Each 1-minute candle follows this structure:
-
-```json
+Each 1-minute candle is:
 [
   timestamp_ms,   // Unix timestamp in milliseconds (UTC)
-  open,           // Opening price of the minute
-  high,           // Highest traded price during the minute
-  low,            // Lowest traded price during the minute
-  close,          // Closing price of the minute
-  volume          // Total traded volume in BTC
+  open,           // Opening price
+  high,           // Highest trade price
+  low,            // Lowest trade price
+  close,          // Closing price
+  volume          // Base-currency trade volume
 ]
+
+⚙️ How These Datasets Are Built
+
+Using a custom high-precision reconstruction pipeline:
+
+Raw Kraken trades loaded from JSON logs
+
+Sorted & aligned into 1-minute windows
+
+Trades grouped by strict UNIX minute boundary
+
+OHLC derived from true trade sequence
+
+Volume sum computed from raw fills
+
+Missing minutes filled as zero-volume flat candles
+
+Final dataset validated against timestamp continuity tools
+
+This process ensures identical reproducibility across all pairs.
+
+📣 Join the Community
+
+All updates, new dataset releases, development logs, and discussions happen here:
+
+👉 Reddit: https://www.reddit.com/r/PopcornAnalytics/
+
+If you want new pairs released sooner, request them there!
+
+🛒 Support the Project
+
+Premium datasets help fund compute costs:
+
+ETHUSD full dataset
+
+XBTUSD full dataset
+
+Future pairs (ADAUSD, XRPUSD, FX pairs, etc.)
+
+👉 Gumroad Store: https://popcornanalytics.gumroad.com/
+
+🎉 Thank You
+
+PopcornAnalytics is growing fast — your support helps expand the dataset catalog and maintain continuous updates.

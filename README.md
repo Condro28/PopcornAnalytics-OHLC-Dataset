@@ -70,7 +70,7 @@ Accurate timestamp reconstruction
 
 True raw-trade OHLC values
 
-Delivered as .json (and .csv upon request)
+Delivered as .json
 
 ETHUSD is offered as a premium dataset due to its size, computational cost, and high demand from trading researchers.
 

